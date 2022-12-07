@@ -1,0 +1,250 @@
+@font-face {
+    font-family: Lato;
+    src: url("Lato-Regular.ttf") format("truetype");
+}
+
+html {
+    font-family: Lato, sans-serif;
+}
+
+
+body {
+    background-size: cover;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c498.059C93.098%2c492.069%2c177.095%2c448.085%2c254.52%2c396.041C330.654%2c344.865%2c393.115%2c279.611%2c441.203%2c201.49C494.581%2c114.774%2c573.87%2c19.531%2c546.688%2c-78.602C519.139%2c-178.059%2c385.649%2c-198.259%2c310.797%2c-269.307C245.824%2c-330.978%2c218.101%2c-428.799%2c137.205%2c-467.278C51.14%2c-508.216%2c-49.697%2c-507.11%2c-142.368%2c-484.86C-237.975%2c-461.905%2c-337.325%2c-421.486%2c-392.494%2c-340.098C-446.098%2c-261.02%2c-417.933%2c-156.577%2c-429.204%2c-61.71C-440.132%2c30.269%2c-485.199%2c120.58%2c-457.735%2c209.041C-428.888%2c301.954%2c-358.74%2c378.267%2c-276.478%2c430.208C-194.581%2c481.918%2c-96.656%2c504.278%2c0%2c498.059' fill='%230b2239'%3e%3c/path%3e%3cpath d='M1440 1038.31C1528.282 1033.075 1580.843 938.941 1643.278 876.307 1693.228 826.197 1729.505 769.225 1767.637 709.627 1812.5230000000001 639.472 1887.959 579.043 1886.752 495.767 1885.528 411.318 1824.43 337.731 1761.431 281.479 1702.742 229.07600000000002 1625.795 202.96499999999997 1547.741 193.067 1477.492 184.159 1409.301 204.52300000000002 1342.625 228.37 1279.33 251.00799999999998 1226.09 287.993 1171.738 327.549 1101.585 378.60400000000004 1007.5889999999999 411.972 978.182 493.601 947.975 577.451 973.134 675.803 1018.6800000000001 752.4110000000001 1062.309 825.794 1149.97 853.433 1220.614 901.371 1293.422 950.777 1352.166 1043.519 1440 1038.31' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+}
+
+.name {
+    display: inline-block;
+    float: left;
+    color: floralwhite;
+    background: #71697A;
+
+}
+
+#image-id {
+    height: 3rem;
+    padding-left: 1rem;
+
+}
+
+.menu-list ul {
+    list-style: none;
+    text-align: center;
+}
+
+.menu-list ul li {
+    display: inline-block;
+}
+
+.menu-list ul li a {
+    text-decoration: none;
+}
+
+
+.menu-list-right ul {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    background-color: #71697A;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    width: 4rem;
+    justify-content: right;
+    margin: 0 1rem 0 1rem;
+}
+
+li a {
+    background-color: #71697A;
+    color: floralwhite;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #0000ed;
+}
+
+
+.home-container {
+    display: inline-flex;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    color: floralwhite;
+}
+
+.home-banner {
+    display: block;
+    margin: auto;
+}
+
+.home-container h1 {
+    padding: 10rem 0 1rem 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-container img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.home-banner p {
+    width: 60%;
+    padding-top: 1rem;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.products-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 0 5rem 0;
+    color: floralwhite;
+}
+
+.products-container h1 {
+    padding: 0 0 1rem 3rem;
+}
+
+.products-container h3 {
+    display: none;
+}
+
+.products-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-banner img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.products-banner p {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.products-container h2 {
+    padding-left: 2rem;
+
+}
+
+
+
+.products-container p {
+    padding: 0 2rem 0 2rem;
+}
+
+.products-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 5rem;
+}
+
+.products-section article {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    background-color: #644842;
+
+}
+
+.products-section img {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    margin: auto;
+    box-sizing: border-box;
+    color: floralwhite;
+}
+
+.contact-header {
+    width: 100%;
+    padding: 10rem 0 0 3rem;
+
+}
+
+.contact-info {
+    width: 40%;
+    padding-left: 2rem;
+}
+
+.contact-img {
+    width: 60%;
+    padding-left: 3rem;
+}
+
+.contact-img img {
+    padding-left: 3rem;
+    width: 50%;
+}
+
+.contact-container article {
+    display: flex;
+    padding-left: 1rem;
+    justify-content: center;
+}
+
+
+.products-container h1 {
+    padding-top: 3rem;
+}
+
+.products-container h3 {
+    display: none;
+}
+
+
+@media screen and (min-width: 769px) {
+    .home-banner {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+
+    .products-section article {
+        width: 25%;
+    }
+}

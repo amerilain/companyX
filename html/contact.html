@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company X</title>
+    <link href="../css/company2.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="name">
+            <img src="../images/logo.jpeg" id="image-id" alt="logo">
+        </div>
+        <div class="menu-list">
+            <!-- Center Nav -->
+            <ul class="navbar-center">
+                <li><a href="home.html">home</a></li>
+                <li><a href="products.html">products</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <div id="contacts">
+            <div class="container contact-container">
+                <div class="contact-header">
+                    <h1>contacts us</h1>
+                </div>
+
+                <article>
+                    <h3>something</h3>
+                    <div class="contact-info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem cumque dolor doloremque, eius
+                            eveniet fugit, illum ipsam ipsum nesciunt porro quo quos reprehenderit sed voluptas
+                            voluptate voluptatem voluptates? Id, mollitia!</p>
+                    </div>
+                    <div class="contact-img">
+                        <div id="googleMap" style="width:500px;height:400px;"></div>
+
+                        <script>
+                            function myMap() {
+                                var mapProp = {
+                                    center: new google.maps.LatLng(60.192059, 24.945831),
+                                    zoom: 10,
+                                };
+                                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                            }
+                        </script>
+
+                        <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
+
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+
+    </main>
+
+
+</div>
+</body>
+</html>
